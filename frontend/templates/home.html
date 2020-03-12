@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/ui.css' %}">
+    {% block styles %} {% endblock %}
+    <title>SITEPLAN</title>
+</head>
+
+<body>
+
+    <div class="container" id='container'> 
+        <h1> WBS LAUTARO 1 </h1>
+        
+        <div class="section">
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="child">
+                <span>Holanda</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/ui.js' %}"></script>
+    {% block scripts %} {% endblock %}
+</body>
+
+</html>
